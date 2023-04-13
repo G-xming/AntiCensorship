@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About:Blank!</title>
+        <link rel="shortcut icon" type="image/png" href="img/logo.png" id="favicon">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+        <script type="text/javascript" src="res/antisecurly.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <style>
+        *{text-decoration:none;}.tn{width: 250px;background-color: black;border-radius: 25px;border: 5px solid white;transition: all .2s ease-in-out;margin-left: 20px;margin-bottom: 30px;float: left;}.tn:hover{transform: scale(1.1);}.t,.lazy{padding-top: 15px;}.center{margin: 0 auto;width: 1150px;}.load{pointer-events:none;}.back-fix{background:firebrick;}
+    </style>
+    </head>
+    <body>
+        <h1 style="color: white;" id="CheckJS">If You Are Seeing This, You Do Not Have Javascript Enabled. You Will Need To Enable This To Use The Website Properly.</h1>
+        <script>
+            document.getElementById('CheckJS').style.display = 'none';
+        </script>
+        <header style="padding-left: 10px">
+        </header>
+        <h1>This Is The Killer, Click The Links In Order</h1>
+
+        <h2>1. Click the button below to copy the link, and paste it into a new tab.</h2>
+        <input readonly type="text" value="chrome://settings/signOut" id="StepOneInput"> 
+        <button onclick="StepOneFunction()">Copy text</button>
+
+        <h2>2. Click the button below copy text to your clipboard. Click the next button  to open a Securely Block Page.<br>Once the page has opened in a new tab, paste the text copied to your clipboard into the URL and press enter.<br>This will stop the page. Then come back to this page and continue to the next step.</h2>
+        <input readonly type="text" value="chrome://kill" id="StepTwoInput">
+        <button onclick="StepTwoFunction()">Copy text</button>
+        <button onclick="StepTwoFunctionTwo()">Open New Tab</button>
+
+        <h2>3. Click the button below to copy the link, and paste it into a new tab. From here enable the option "Allow access to file URLs"</h2>
+        <input readonly type="text" value="chrome://extensions/?id=iheobagjkfklnlikgihanlhcddjoihkg" id="StepThreeInput">
+        <button onclick="StepThreeFunction()">Copy text</button>
+
+        <h2>To disable the killer click the button below to copy the link, and paste it into a new tab, this most likely will log you out.</h2>
+        <input readonly type="text" value="chrome://restart" id="RemoveInput">
+        <button onclick="RemoveFunction()">Copy text</button>
+
+        <h2>To test out the experimental page, click the button below</h2>
+        <button onclick="ExperimentalFunction()">Open Experimental Tab</button>
+        <script>
+        </script>
+    </body>
+</html>
