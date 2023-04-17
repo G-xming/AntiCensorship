@@ -9,3 +9,11 @@ function AS(){
 function SNPB(){
     location.href= 'securlynewpointblank.html'
 }
+
+function IFG(){
+    location.href= 'iFrame.html'
+}
+
+function ABG(){
+    location.href= 'AboutBlank.html'
+}
