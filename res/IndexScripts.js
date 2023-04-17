@@ -17,3 +17,8 @@ function IFG(){
 function ABG(){
     location.href= 'AboutBlank.html'
 }
+
+
+function EH(){
+    location.href= 'encodedhtml.html'
+}
